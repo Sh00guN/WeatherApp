@@ -24,5 +24,10 @@ namespace WeatherApp
         {
             InitializeComponent();
         }
+
+        private void button1_click(object sender, RoutedEventArgs e)
+        {
+            textBox.Text = "Hello WPF";
+        }
     }
 }
